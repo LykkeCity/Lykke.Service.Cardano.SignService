@@ -1,0 +1,28 @@
+{
+  "name": "lykke.service.cardano.signservice",
+  "version": "1.0.0",
+  "description": "Cardano (ADA) blockchain integration, signing API",
+  "main": "./build/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@types/bip39": "^2.4.0",
+    "@types/koa": "^2.0.46",
+    "@types/koa-bodyparser": "^4.2.0",
+    "@types/koa-router": "^7.0.30",
+    "@types/node": "^10.3.6",
+    "@types/uuid": "^3.4.3",
+    "axios": "^0.18.0",
+    "bip39": "^2.5.0",
+    "koa": "^2.5.1",
+    "koa-bodyparser": "^4.2.1",
+    "koa-multer": "^1.0.2",
+    "koa-router": "^7.4.0",
+    "reflect-metadata": "^0.1.12",
+    "routing-controllers": "^0.7.7",
+    "rust-cardano-crypto": "file:lib/rust-cardano-crypto",
+    "typedi": "^0.7.3",
+    "uuid": "^3.2.1"
+  }
+}

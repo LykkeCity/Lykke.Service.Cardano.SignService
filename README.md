@@ -1,2 +1,2 @@
 # Lykke.Service.Cardano.SignService
-Cardano (ADA) blockchain
+Cardano (ADA) blockchain integration, signing API

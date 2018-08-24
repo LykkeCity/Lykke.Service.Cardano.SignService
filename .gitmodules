@@ -1,0 +1,4 @@
+
+[submodule "lib/rust-cardano-crypto"]
+	path = lib/rust-cardano-crypto
+	url = https://github.com/input-output-hk/js-cardano-wasm.git
